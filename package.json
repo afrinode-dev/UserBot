@@ -1,0 +1,13 @@
+{
+  "name": "telegram-userbot",
+  "version": "1.0.0",
+  "description": "UserBot Telegram pour forwarder des fichiers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegram": "^4.15.5",
+    "dotenv": "^16.4.5"
+  }
+}
