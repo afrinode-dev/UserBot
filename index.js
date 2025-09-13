@@ -12,7 +12,7 @@ const apiId = parseInt(process.env.API_ID);
 const apiHash = process.env.API_HASH;
 const destChatId = process.env.DEST_CHAT;
 const adminId = parseInt(process.env.ADMIN_ID);
-const bannerUrl = process.env.BANNER_URL || 'https://example.com/banner.jpg';
+const bannerUrl = process.env.BANNER_URL || 'https://raw.githubusercontent.com/afrinode-dev/UserBot/refs/heads/main/bot.png';
 
 // Gestion des sources
 let sources = process.env.SOURCES ? process.env.SOURCES.split(',').map(id => id.trim()) : [];
